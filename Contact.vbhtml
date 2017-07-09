@@ -99,7 +99,7 @@
                     .PreMailerCss = True
                     ' SMTP Server for System.Net.Mail
                     .SmtpUserName = "james@wwwebconcepts"
-                    .SmtpPassword = "Karen7065"
+                    .SmtpPassword = "password"
                     .SmtpHost = "192.168.1.16"
                     ' email properties
                     .SuccessRedirect = "" & thanksPath & ""
