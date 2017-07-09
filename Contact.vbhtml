@@ -79,7 +79,7 @@
         human = theCAPTCHA.Construct()
 
         If Not human Then
-            human = True 'ModelState.AddFormError("Recaptcha response was not correct.")
+            human = ModelState.AddFormError("Recaptcha response was not correct.")
         End If
 
         If Validation.IsValid() Then
