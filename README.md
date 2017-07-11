@@ -20,5 +20,3 @@ theCAPTCHA.Construct() ' Returns validation as boolean
 <div class="recaptcha"><%=theCAPTCHA.getControl("" & ReCAPTCHATheme & "","" & ReCAPTCHALanguage & "")%></div>
 ' Robots style
 <div class="recaptcha"><%=theCAPTCHA.getControl()%></div>
-
-
