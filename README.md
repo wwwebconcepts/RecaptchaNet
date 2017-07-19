@@ -18,6 +18,8 @@ With theCAPTCHA
   .FailURL = "redirect to on fail"
   Construct() ' Returns validation as boolean
 End With
+
+
 ' Classic style recaptcha: <div class="recaptcha"><%=theCAPTCHA.getControl("" & ReCAPTCHATheme & "","" & ReCAPTCHALanguage & "")%></div>
 
 ' Robots style: <div class="recaptcha"><%=theCAPTCHA.getControl()%></div>
