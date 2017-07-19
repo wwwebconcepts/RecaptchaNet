@@ -20,7 +20,9 @@ With theCAPTCHA
 End With
 
 
-' Classic style recaptcha: <div class="recaptcha"><%=theCAPTCHA.getControl("" & ReCAPTCHATheme & "","" & ReCAPTCHALanguage & "")%></div>
+' Classic style recaptcha: 
+<div class="recaptcha"><%=theCAPTCHA.getControl("" & ReCAPTCHATheme & "","" & ReCAPTCHALanguage & "")%></div>
 
-' Robots style: <div class="recaptcha"><%=theCAPTCHA.getControl()%></div>
+' Robots style: 
+<div class="recaptcha"><%=theCAPTCHA.getControl()%></div>
  ```
