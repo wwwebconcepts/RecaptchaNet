@@ -24,12 +24,10 @@ theCAPTCHA.FailURL = "redirect to on fail"
 
 theCAPTCHA.Construct() ' Returns validation as boolean
 
-' Classic style recaptcha
-
+' Classic style recaptcha: 
 <div class="recaptcha"><%=theCAPTCHA.getControl("" & ReCAPTCHATheme & "","" & ReCAPTCHALanguage & "")%></div>
 
 
 
-' Robots style
-
+' Robots style: 
 <div class="recaptcha"><%=theCAPTCHA.getControl()%></div>
