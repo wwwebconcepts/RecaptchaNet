@@ -1,4 +1,3 @@
-
 VB.NET RecaptchaNet Class provides simple Google Recaptcha implementation using either the robots or classic Recaptcha interface. 
 
 See Contact.vbhtml for usage example. 
@@ -28,6 +27,7 @@ theCAPTCHA.Construct() ' Returns validation as boolean
 ' Classic style recaptcha
 
 <div class="recaptcha"><%=theCAPTCHA.getControl("" & ReCAPTCHATheme & "","" & ReCAPTCHALanguage & "")%></div>
+
 
 
 ' Robots style
